@@ -7,6 +7,13 @@ export interface Env {
 // the caller never controls the destination address directly.
 const SITES: Record<string, { to: string; label: string }> = {
   novallem: { to: 'hello@novallem.com', label: 'Novallem' },
+  // Concept portfolio sites — all route to the Novallem inbox.
+  crestline: { to: 'hello@novallem.com', label: 'Crestline Web Studio' },
+  brightline: { to: 'hello@novallem.com', label: 'Brightline Home Painting' },
+  trueline: { to: 'hello@novallem.com', label: 'Trueline Painting Co.' },
+  armsworthy: { to: 'hello@novallem.com', label: 'Armsworthy Tulsa Fencing' },
+  ofence: { to: 'hello@novallem.com', label: 'O-Fence of Mustang' },
+  whisker: { to: 'hello@novallem.com', label: 'Whisker & Bean' },
 };
 
 const CORS_HEADERS = {
